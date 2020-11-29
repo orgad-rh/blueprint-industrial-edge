@@ -17,7 +17,7 @@ This folder will contain the basic settings for the site, including the base blu
 
 ```yaml
 bases:
-- git::https://github.com/redhat-edge-computing/blueprint-industrial-edge.git//profiles/production.baremetal/00_install-config
+- git::https://github.com/orgad-rh/blueprint-industrial-edge.git//profiles/production.baremetal/00_install-config
 
 patches:
 - install-config.patch.yaml
@@ -115,6 +115,6 @@ Finally, create a `$HOME/.kni` folder and copy the following files:
 
 You can find the steps to deploy the following defined sites here:
 
-- [Staging Openshift cluster running on GCP](sites/staging-edge.gcp.devcluster.openshift.com/README.md)
+- [Staging Openshift cluster running on GCP](sites/edge_cluster.edge_cluster.locutus.me/README.md)
 - [Staging Openshift cluster running on AWS](sites/staging-edge.devcluster.openshift.com/README.md)
 - [Edge Openshift baremetal cluster](sites/mvp.edge.industrial/README.md)

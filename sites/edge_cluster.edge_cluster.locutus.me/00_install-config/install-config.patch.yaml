@@ -2,4 +2,4 @@ apiVersion: v1
 kind: InstallConfig
 metadata:
   name: cluster
-baseDomain: gcp.devcluster.openshift.com
+baseDomain: edge_cluster.locutus.me

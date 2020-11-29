@@ -4,5 +4,5 @@ metadata:
   name: cluster
 platform:
   gcp:
-    projectID: openshift-gce-devel
-    region: europe-west4
+    projectID: elaborate-helix-192113
+    region: europe-west3-a

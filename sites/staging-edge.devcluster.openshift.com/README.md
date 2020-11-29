@@ -123,7 +123,7 @@ Define the following var and aliases, according to your needs.
 
 ```bash
 export SITE_NAME='staging-edge.devcluster.openshift.com'
-export GIT_REPO='github.com/redhat-edge-computing/blueprint-industrial-edge'
+export GIT_REPO='github.com/orgad-rh/blueprint-industrial-edge'
 alias openshift-install="$HOME/.kni/$SITE_NAME/requirements/openshift-install"
 ```
 
